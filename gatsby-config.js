@@ -1,9 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Mcgonigle Dev`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: `McGonigle Dev`,
+    siteUrl: `https://www.mcgonigle.dev`,
+    author: `Patrick McGonigle`,
+    keywords: `Web Developer, LAMP Stack, JAM Stack, Full Stack, WordPress, GatsbyJS`,
+    description: `Full Stack Web Developer`
   },
-  plugins: ["gatsby-plugin-postcss", "gatsby-plugin-image", "gatsby-plugin-react-helmet", "gatsby-plugin-sitemap", {
+  plugins: ["gatsby-plugin-postcss","gatsby-plugin-postcss", "gatsby-plugin-image", "gatsby-plugin-react-helmet", "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',
     options: {
       "icon": "src/images/icon.png"
